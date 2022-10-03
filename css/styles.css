@@ -1,292 +1,275 @@
 :root {
---primary-text-color:  rgba(33, 33, 33, 1);
---secondary-text-color:  rgba(117, 117, 117, 1);
---accent-color: rgba(33, 150, 243, 1)
+  --primary-text-color: rgba(33, 33, 33, 1);
+  --secondary-text-color: rgba(117, 117, 117, 1);
+  --accent-color: rgba(33, 150, 243, 1);
 }
 
 body {
-    font-family: Roboto, sans-serif;
-    color: var(--primary-text-color);
-    
+  font-family: Roboto, sans-serif;
+  color: var(--primary-text-color);
 }
 
 .logo {
-    font-family: Raleway, sans-serif;
-    font-style: normal;
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 1.2;
-        letter-spacing: 0.03em;
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
 }
-
 
 .nav {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-
 .nav-list {
-    list-style: none;
-    font-family: 'Roboto';
-        font-style: none;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 1.1;
-        letter-spacing: 0.02em;
-    
-        color: rgba(33, 33, 33, 1);;
+  list-style: none;
+  font-family: "Roboto";
+  font-style: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+
+  color: rgba(33, 33, 33, 1);
 }
 
 .nav-link {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .nav-link:hover,
 .nav-link:focus {
-    color: rgba(33, 150, 243, 1);
+  color: rgba(33, 150, 243, 1);
 }
 .adress {
-list-style: none;
-font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
+  list-style: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 }
 
 .adress-header {
-    text-decoration: none;
-    color:  rgba(117, 117, 117, 1);;
+  text-decoration: none;
+  color: rgba(117, 117, 117, 1);
 }
 
 .adress-header:hover {
-    color: rgba(33, 150, 243, 1);
+  color: rgba(33, 150, 243, 1);
 }
-
-
-
 
 .portfolio-btn {
-    border: none;
-    cursor: pointer;   
-font-family: Roboto, sans-serif;
-font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.6;
+  border: none;
+  cursor: pointer;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
 }
 
-
 .portfolio-btns {
-list-style: none;
-font-style: normal;
-    
+  list-style: none;
+  font-style: normal;
 }
 
 .portfolio-btn:hover,
 .portfolio-btn:focus {
-    color: white;
-    background-color: rgba(33, 150, 243, 1);
+  color: white;
+  background-color: rgba(33, 150, 243, 1);
 }
 
 .hero-title {
-    font-style: normal;
-        font-weight: 900;
-        font-size: 44px;
-        line-height: 1.4;
-        text-align: center;
-        letter-spacing: 0.06em;
-        text-transform: uppercase;
-        width: 696px;
-    color: rgba(255, 255, 255, 1);
-    background-color: rgba(47, 48, 58, 1);
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  width: 696px;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(47, 48, 58, 1);
 }
 
 .hero-btn {
-    font-style: normal;
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 1.9;
-        text-align: center;
-        letter-spacing: 0.06em;
-    cursor: pointer;
-    border: none;
-
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  border: none;
 }
 
 .hero-btn:hover,
 .hero-btn:focus {
-    color: rgba(255, 255, 255, 1);
-    background-color: rgba(33, 150, 243, 1);
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(33, 150, 243, 1);
 }
 
-
-
 .one {
-    position: absolute;
-    width: 73px;
-    height: 38px;
-    left: 512px;
-    top: 174px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.6;
-    letter-spacing: 0.03em;
+  position: absolute;
+  width: 73px;
+  height: 38px;
+  left: 512px;
+  top: 174px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
 }
 
 .two {
-    position: absolute;
-    width: 125px;
-    height: 38px;
-    left: 593px;
-    top: 174px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.6;
-    letter-spacing: 0.03em;
+  position: absolute;
+  width: 125px;
+  height: 38px;
+  left: 593px;
+  top: 174px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
 }
 
 .three {
-    position: absolute;
-    width: 112px;
-    height: 38px;
-    left: 726px;
-    top: 174px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.6;
-    letter-spacing: 0.03em;
+  position: absolute;
+  width: 112px;
+  height: 38px;
+  left: 726px;
+  top: 174px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
 }
 
 .four {
-    position: absolute;
-    width: 103px;
-    height: 38px;
-    left: 846px;
-    top: 174px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.6;
-    letter-spacing: 0.03em;
+  position: absolute;
+  width: 103px;
+  height: 38px;
+  left: 846px;
+  top: 174px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
 }
 
 .five {
-    position: absolute;
-        width: 130px;
-        height: 38px;
-        left: 957px;
-        top: 174px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.6;
-    letter-spacing: 0.03em;
-} 
-
-
-
-
-
-
+  position: absolute;
+  width: 130px;
+  height: 38px;
+  left: 957px;
+  top: 174px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+}
 
 .footer-address {
-    text-decoration: none;
-    color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .footer-info {
-    font-style: normal;
-    text-decoration: none;
-    color:  rgba(255, 255, 255, 0.6);
-    background-color:  rgba(47, 48, 58, 1);;
+  font-style: normal;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(47, 48, 58, 1);
 }
 
 .footer-address-living {
-    color: rgba(255, 255, 255, 1);;
+  color: rgba(255, 255, 255, 1);
 }
 
-.details-list {  
-list-style: none;
+.details-list {
+  list-style: none;
 }
 
 .details-title {
-font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.1;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .details-description {
-    font-style: normal;
-        
-        font-size: 14px;
-        line-height: 1.7;
-        letter-spacing: 0.03em;
-        color: var(--secondary-text-color)
+  font-style: normal;
+
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
 }
 
 .activity-list {
-list-style: none;
+  list-style: none;
 }
 
 .products-list {
-    list-style: none;
+  list-style: none;
 }
 
 .products-list-title {
-    font-style: normal;
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 2.0;
-        letter-spacing: 0.06em;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 
 .products-list-description {
-    color: var(--secondary-text-color);
-    font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.9;
-        letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
 }
 
 .activity-title {
-    font-style: normal;
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 1.2;
-        text-align: center;
-        letter-spacing: 0.03em;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .team-main-title {
-    font-style: normal;
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 1.2;
-        text-align: center;
-        letter-spacing: 0.03em;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .team-title {
-    font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.2;
-        letter-spacing: 0.03em;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
 }
 
 .team-description {
-    font-style: normal;
-    font-weight: 400;
-        font-size: 16px;
-        line-height: 1.2;
-        letter-spacing: 0.03em;
-        color: var(--secondary-text-color)
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
 }
