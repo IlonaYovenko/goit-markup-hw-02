@@ -16,6 +16,15 @@ body {
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+
+.nav-logo-color {
+  color: rgba(0, 0, 0, 1);
+}
+
+.footer-logo-color {
+  color: rgba(255, 255, 255, 1);
 }
 
 .nav {
@@ -24,18 +33,16 @@ body {
 
 .nav-list {
   list-style: none;
-  font-family: "Roboto";
   font-style: none;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
-
-  color: rgba(33, 33, 33, 1);
 }
 
 .nav-link {
   text-decoration: none;
+  color: var(--primary-text-color);
 }
 
 .nav-link:hover,
@@ -103,10 +110,6 @@ body {
   letter-spacing: 0.06em;
   cursor: pointer;
   border: none;
-}
-
-.hero-btn:hover,
-.hero-btn:focus {
   color: rgba(255, 255, 255, 1);
   background-color: rgba(33, 150, 243, 1);
 }
@@ -176,6 +179,10 @@ body {
   letter-spacing: 0.03em;
 }
 
+.footer {
+  text-decoration: none;
+  background-color: rgba(47, 48, 58, 1);
+}
 .footer-address {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
@@ -185,7 +192,6 @@ body {
   font-style: normal;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
-  background-color: rgba(47, 48, 58, 1);
 }
 
 .footer-address-living {
